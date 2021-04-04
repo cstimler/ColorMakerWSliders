@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var colorView: UIView!
+    
+    @IBOutlet var redNumberLabel: UILabel!
+    @IBOutlet var greenNumberLabel: UILabel!
+    @IBOutlet var blueNumberLabel: UILabel!
 
 
     override func viewDidLoad() {
@@ -34,6 +38,16 @@ class ViewController: UIViewController {
         blueValue = CGFloat(blueSlider.value)
         
         colorView.backgroundColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
+        
+        fillInColorNumbers(red: redValue, green: greenValue, blue: blueValue)
+    }
+    
+    func fillInColorNumbers (red: CGFloat, green: CGFloat, blue: CGFloat) {
+        
+        redNumberLabel.text = red.description
+        greenNumberLabel.text = green.description
+        blueNumberLabel.text = blue.description
+        
     }
 
 }
