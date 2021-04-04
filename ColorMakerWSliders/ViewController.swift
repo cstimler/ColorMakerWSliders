@@ -44,9 +44,13 @@ class ViewController: UIViewController {
     
     func fillInColorNumbers (red: CGFloat, green: CGFloat, blue: CGFloat) {
         
-        redNumberLabel.text = red.description
-        greenNumberLabel.text = green.description
-        blueNumberLabel.text = blue.description
+        let red255 = Int(red*255)
+        let green255 = Int(green*255)
+        let blue255 = Int(blue*255)
+        
+        redNumberLabel.text = String(red255)
+        greenNumberLabel.text = String(green255)
+        blueNumberLabel.text = String(blue255)
         
     }
 
