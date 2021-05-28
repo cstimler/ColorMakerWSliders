@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8759922660FE7E0075DAA8 /* TestForGitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8759912660FE7E0075DAA8 /* TestForGitignore.swift */; };
 		9F8AED93261A5F3D00D5711C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AED92261A5F3D00D5711C /* AppDelegate.swift */; };
 		9F8AED95261A5F3D00D5711C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AED94261A5F3D00D5711C /* SceneDelegate.swift */; };
 		9F8AED97261A5F3D00D5711C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AED96261A5F3D00D5711C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8759912660FE7E0075DAA8 /* TestForGitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForGitignore.swift; sourceTree = "<group>"; };
 		9F8AED8F261A5F3D00D5711C /* ColorMakerWSliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMakerWSliders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8AED92261A5F3D00D5711C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F8AED94261A5F3D00D5711C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				9F8AED9B261A5F3E00D5711C /* Assets.xcassets */,
 				9F8AED9D261A5F3E00D5711C /* LaunchScreen.storyboard */,
 				9F8AEDA0261A5F3E00D5711C /* Info.plist */,
+				9F8759912660FE7E0075DAA8 /* TestForGitignore.swift */,
 			);
 			path = ColorMakerWSliders;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8759922660FE7E0075DAA8 /* TestForGitignore.swift in Sources */,
 				9F8AED97261A5F3D00D5711C /* ViewController.swift in Sources */,
 				9F8AED93261A5F3D00D5711C /* AppDelegate.swift in Sources */,
 				9F8AED95261A5F3D00D5711C /* SceneDelegate.swift in Sources */,
